@@ -1,13 +1,13 @@
 # Forked from https://github.com/AlexxIT/hassio-addons/tree/master/go2rtc
 # Uses ghcr.io/kapliy/go2rtc with the Tapo H265 patch for C460 et al.
 name: go2rtc (Tapo H265 patched)
-description: Tapo C460 / 4K battery cam H265 fix layered on AlexxIT go2rtc master.
+description: Tapo C460 / 4K battery cam H265 fix layered on AlexxIT go2rtc 1.9.15.
 url: https://github.com/kapliy/go2rtc
 image: ghcr.io/kapliy/go2rtc
 arch: [ amd64, aarch64, i386, armv7 ]
 
 # https://developers.home-assistant.io/docs/add-ons/configuration
-version: master
+version: 1.9.15-tapo1
 slug: go2rtc-tapo-h265
 init: false
 startup: system
